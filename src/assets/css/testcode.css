@@ -1,0 +1,28 @@
+.title-view {
+    background: linear-gradient(-180deg, #000000, transparent);
+    margin: 0px;
+    color: white;
+    padding: 7px 0px 66px;
+    position: relative;
+    margin-top: -120px;
+    top: 120px;
+    z-index: 10;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    transition: all 0.5s ease 0s;
+}
+.title-hidden {
+    background: linear-gradient(-180deg, #000000, transparent);
+    margin: 0px;
+    color: white;
+    padding: 7px 0px 66px;
+    position: relative;
+    margin-top: -120px;
+    top: 0px;
+    z-index: 10;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    transition: all 0.5s ease 0s;
+}

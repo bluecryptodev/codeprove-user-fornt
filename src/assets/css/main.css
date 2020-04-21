@@ -1,0 +1,68 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto,sans-serif;
+    background: #ececec;
+}
+img {
+    width: 100%
+}
+.code-list-header {
+    background-image: url("../img/codetest.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.answer-header {
+    background-image: url("../img/codetest.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50px;
+    position: absolute;
+    width: 100%
+}
+.Mui-selected {
+    opacity: 1;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.circle-ripple {
+    background-color: rgba(249, 51, 107);
+    width: .5em;
+    height: .5em;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 2px;
+    -webkit-animation: ripple 0.7s linear infinite;
+            animation: ripple 0.7s linear infinite;
+  }
+.react-notification-root {
+  left: 0px;
+  top: 0px
+}
+.vimeo-video-player-custom iframe {
+  width: 100%
+}
+.flag-dropdown {
+  top: 20px!important;
+  height: 65px;
+}
+  
+  @-webkit-keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(249, 51, 107, 0.3), 0 0 0 2px rgba(249, 51, 107, 0.3), 0 0 0 4px rgba(249, 51, 107, 0.3), 0 0 0 6px rgba(249, 51, 107, 0.3);
+    }
+    100% {
+      box-shadow: 0 0 0 0.5em rgba(249, 51, 107, 0.3), 0 0 0 4px rgba(249, 51, 107, 0.3), 0 0 0 6px rgba(249, 51, 107, 0.3), 0 0 0 8px rgba(249, 51, 107, 0);
+    }
+  }
+  
+  @keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(249, 51, 107, 0.3), 0 0 0 2px rgba(249, 51, 107, 0.3), 0 0 0 4px rgba(249, 51, 107, 0.3), 0 0 0 6px rgba(249, 51, 107, 0.3);
+      }
+      100% {
+        box-shadow: 0 0 0 0.5em rgba(249, 51, 107, 0.3), 0 0 0 4px rgba(249, 51, 107, 0.3), 0 0 0 6px rgba(249, 51, 107, 0.3), 0 0 0 8px rgba(249, 51, 107, 0);
+      }
+  }

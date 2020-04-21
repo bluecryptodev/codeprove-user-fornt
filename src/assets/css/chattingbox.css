@@ -1,0 +1,10 @@
+.chatting-content-close {
+    height: 0px;
+    overflow: hidden;
+}
+.chatting-content-open {
+    height: 100%;
+}
+.chatting-content {
+    transition: all 1s ease 0s;
+}

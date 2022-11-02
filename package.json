@@ -54,7 +54,7 @@
     "react-scripts": "3.4.0",
     "react-scroll": "^1.7.15",
     "react-swipeable-views": "^0.13.3",
-    "react-syntax-highlighter": "^12.2.1",
+    "react-syntax-highlighter": "^15.5.0",
     "react-touch-carousel": "^0.9.3",
     "react-vimeo": "^2.0.0",
     "react-youtube": "^7.9.0",
